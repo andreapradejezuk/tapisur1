@@ -3,6 +3,7 @@
     height: 100px; 
     margin-left: 50px;
 }
+
 .menu {
     list-style: none;
     text-decoration: none;
@@ -80,10 +81,14 @@ p {
 .tapifoot {
     width: 350px ;
     height: 300px;
-    margin: 100px;
+    margin: 100px 50px;
 }
 .tituloFoot {
-    margin: 100px;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 50px;
+    font-weight: bold;
 }
 .textoFoot {
     font-size: 20px;
@@ -99,11 +104,11 @@ p {
 
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     
 }
 .textointro {
-    margin: 50px 00px;
+    margin: 50px 100px;
 }
 .texto2 {
     font-size: medium;
@@ -285,4 +290,100 @@ h2 {
    font-size: 40px;
  text-align: center;
  margin-top: 100px;
+}
+@media (max-width:480px) {
+    .tapiport{
+        width: 80px;
+        height: 80px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .menupc {
+        display: none;
+    }
+    .port1 {
+       width: 480px;
+       height: 300px;
+    }
+    .textointro {
+        font-size: 14px;
+        
+    }
+    .fotohome {
+        width:200px ;
+        height: 200px;
+    }
+    .fotosPrincipal {
+        display: grid;
+        grid-template-columns: repeat(2, 200px);
+       justify-content: center;
+       column-gap: 20px;
+       row-gap: 20px;
+    }
+    .tapifoot {
+        width: 200px ;
+        height: 200px;
+        margin: 50px;
+        margin-left: 120px;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .tituloFoot {
+        margin: 20px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .textoFoot {
+        font-size: 14px;
+    }
+   .tapimenu {
+    height: 50px;
+    width:50px ;
+   }
+   h2 {
+    color: rgb(164, 118, 90
+   );
+   font-style: inherit;
+   font-size: 20px;
+ text-align: center;
+ margin-top: 100px;
+}
+.fot6 {
+    width: 150px;
+    height: 150px;
+
+}
+.fot62 {
+    width: 200px;
+    height: 150px;
+   
+}
+.fot8 {
+    width: 150px;
+    height: 150px;
+    
+}
+.dos {
+    display: grid;
+    grid-template-columns: repeat(2,150px);
+    justify-content: center;
+    column-gap: 60px;
+    row-gap: 50px;
+}
+.indi {
+    display: grid;
+    grid-template-columns: repeat(2,150px);
+    justify-content: center;
+    column-gap: 60px;
+    row-gap: 50px;
+}
+}
+@media (min-width:480px) {
+    .menuhambur {
+        display: none
+    }
 }
