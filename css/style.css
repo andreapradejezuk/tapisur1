@@ -36,7 +36,6 @@ p {
    font-style: normal;
    font-size: 36px;
    text-align: center;
-   margin: 50px 300px;
 }
 .fotosPrincipal {
     display: grid;
@@ -48,25 +47,31 @@ p {
 .fot6 {
     width: 400px;
     height: 400px;
-    margin: 25px 25px 50px 50px;
-   position: relative;
-   left: 200px;
+
 }
 .fot62 {
     width: 450px;
     height: 400px;
-    margin: 25px 25px 50px 50px;
-   position: relative;
-   left: 110px;
-   top: 80px;
+   
 }
 .fot8 {
     width: 300px;
     height: 300px;
-    margin: 25px 50px;
-    position: relative;
-    top: 80px;
-    left: 100px;
+    
+}
+.dos {
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    justify-content: center;
+    column-gap: 100px;
+    row-gap: 50px;
+}
+.indi {
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    justify-content: center;
+    column-gap: 100px;
+    row-gap: 50px;
 }
 .fotohome {
     width: 600px;
@@ -77,113 +82,11 @@ p {
     height: 300px;
     margin: 100px;
 }
-div {
-    color: rgb(164, 118, 90
-   );
-   font-style: inherit;
- font-size: 40px;
- margin-top: 50px;
- margin-right: 10px;
+.tituloFoot {
+    margin: 100px;
 }
-
-.wp1 {
-    color: rgb(164, 118, 90
-    );
-    width: 20px ;
-    height: 20px;
-    position: relative;
-    top: 80px;
-    margin-left: -300px;
-}
-.ig {
-    color: rgb(164, 118, 90
-    );
-    width: 20px ;
-    height: 20px;
-}
-.container {
-    display: flex;
-    flex-direction: row;
-}
-
-
-.textoFoot1 {
-    color: rgb(164, 118, 90
-   );
-   font-size: medium;
-   width: 150px;
-   height: 10px;
-  position: relative;
- margin-left: -28px;
- 
-
-}
-
-.textoFoot2 {
-    color: rgb(164, 118, 90
-   );
-   font-size: medium;
-   width: 150px;
-  position: relative;
-margin-left: 10px;
- 
-
-}
-.wp2 {
-    color: rgb(164, 118, 90
-    );
-    width: 20px ;
-    height: 20px;
-    position: relative;
-    top: -40px;
-   left: -994px;
-}
-.textoFoot3 {
-    color: rgb(164, 118, 90
-   );
-   font-size: medium;
-   width: 150px;
-  position: relative;
-margin-left: 10px;
-top: -120px;
- 
-
-}
-.ig {
-    color: rgb(164, 118, 90
-    );
-    width: 20px ;
-    height: 20px;
-    position: relative;
-    top: 80px;
-    left: -100px;
-}
-
-.textoFoot4 {
-    color: rgb(164, 118, 90
-   );
-   font-size: medium;
-   width: 150px;
-  position: relative;
-  top: 5px;
-  left: -303px;
- 
-
-}
-.wp {
-    position: relative;
-    left: -15px;
-}
-.insta {
-    position: relative;
-    left: -500px;
-}
-
-footer {
-    display: grid;
-    grid-template-columns: 600px repeat(3, 50px);
-    grid-template-rows: 400px;
-    
+.textoFoot {
+    font-size: 20px;
 }
 
 .texto1 {
@@ -194,7 +97,14 @@ footer {
 
 }
 
-
+.container {
+    display: flex;
+    justify-content: center;
+    
+}
+.textointro {
+    margin: 50px 00px;
+}
 .texto2 {
     font-size: medium;
     margin-left: 580px;
@@ -227,7 +137,6 @@ footer {
     background-color: #f7f4f0;
     height: 400px;
     position: sticky;
-top: 3500px; 
 }
 .menu li {
     position: relative;
