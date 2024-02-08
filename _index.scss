@@ -1,0 +1,37 @@
+.port1 {
+    width: 1880px;
+    height:900px ;
+   background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+p {
+    color:$color;
+    font-style: normal;
+    font-size: 36px;
+    text-align: center;
+    .textointro {
+        margin: 50px 100px;
+    }
+ }
+ h1 {
+    color:$color;
+    font-style: inherit;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.fotosPrincipal {
+    display: grid;
+    grid-template-columns: repeat(2, 600px);
+   justify-content: center;
+   column-gap: 50px;
+   row-gap: 50px;
+   .fotohome {
+    width: 600px;
+    height: 600px;
+}
+}
+

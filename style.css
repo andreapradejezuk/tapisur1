@@ -1,0 +1,426 @@
+.tapiport {
+    width: 150px; ;
+    height: 100px; 
+    margin-left: 50px;
+}
+
+.menu {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(164, 118, 90
+    );
+    font-style: inherit;
+    font-size: larger;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 5px;
+    margin: 20px 30px;
+}
+.home:hover {
+    font-weight: bold;
+}
+.catalogo:hover {
+    font-weight: bold;
+}
+.envios:hover {
+    font-weight: bold;
+}
+.contacto:hover {
+    font-weight: bold;
+}
+.telas:hover {
+    font-weight: bold;
+}
+header {
+    background-color: #f7f4f0;
+    height:110px;
+    position: sticky;
+    top: 0px;
+}
+.telas {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.muestrarios {
+    height:500px ;
+    width: 750px;
+}
+.port1 {
+    width: 1880px;
+    height:900px ;
+   background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+p {
+   color: rgb(164, 118, 90
+   );
+   font-style: normal;
+   font-size: 36px;
+   text-align: center;
+}
+.fotosPrincipal {
+    display: grid;
+    grid-template-columns: repeat(2, 600px);
+   justify-content: center;
+   column-gap: 50px;
+   row-gap: 50px;
+}
+.fot6 {
+    width: 400px;
+    height: 400px;
+
+}
+.fot62 {
+    width: 450px;
+    height: 400px;
+   
+}
+.fot8 {
+    width: 300px;
+    height: 300px;
+    
+}
+.dos {
+    display: grid;
+    grid-template-columns: repeat(3,400px);
+    justify-content: center;
+    column-gap: 100px;
+    row-gap: 50px;
+}
+.indi {
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    justify-content: center;
+    column-gap: 100px;
+    row-gap: 50px;
+}
+.fotohome {
+    width: 600px;
+    height: 600px;
+}
+.tapifoot {
+    width: 350px ;
+    height: 300px;
+    margin: 100px 50px;
+}
+.tituloFoot {
+    margin-top: 120px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 50px;
+    font-weight: bold;
+}
+.textoFoot {
+    font-size: 20px;
+}
+
+.texto1 {
+    font-size: medium;
+    margin-left: -90px;
+    position: relative;
+    bottom: 380px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: start;
+    
+}
+.textointro {
+    margin: 50px 100px;
+}
+.texto2 {
+    font-size: medium;
+    margin-left: 580px;
+    position: relative;
+    bottom: 690px;
+}
+.wp2 {
+    font-size: medium;
+    margin-left: 1005px;
+    position: relative;
+    bottom: 700px;
+    width: 20px ;
+    height: 20px;
+}
+.texto3 {
+    font-size: medium;
+    margin-left: 580px;
+    position: relative;
+    bottom: 775px;
+}
+
+.texto4 {
+    font-size: medium;
+    margin-left: 1190px;
+    position: relative;
+    bottom: 1035px;
+}
+
+footer {
+    background-color: #f7f4f0;
+    height: 400px;
+    position: sticky;
+}
+.menu li {
+    position: relative;
+    bottom: 100px;
+    right: 60px;
+    
+}
+.tapiportpags {
+    width: 150px; ;
+    height: 100px;
+}
+h1 {
+    color: rgb(164, 118, 90
+    );
+    font-style: inherit;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.titulos {
+    color: rgb(164, 118, 90
+    );
+    font-style: inherit;
+  font-size: 50px;
+ position: relative;
+ right: 650px;
+ top: 100px;
+ bottom: 50px;
+
+}
+
+.titulos2 {
+    color: rgb(164, 118, 90
+    );
+    font-style: inherit;
+  font-size: 50px;
+ position: relative;
+ left: 750px;
+ top: 100px;
+}
+.fot {
+    width: 450px;
+    height: 400px;
+    margin: 50px;
+    position: relative;
+    left: 400px;
+    top: 50px;
+}
+
+.pana {
+    height: 800px ;
+    width: 1500px;
+    position: relative;
+    top: 80px;
+    left: 100px;
+}
+.chenille {
+    height: 500px ;
+    width: 1400px;
+    position: relative;
+    top: 80px;
+    left: 150px;
+}
+.ecocuero {
+    height: 800px ;
+    width: 1500px;
+    position: relative;
+    top: 80px;
+    left: 100px;
+}
+.lino {
+    height: 800px ;
+    width: 1500px;
+    position: relative;
+    top: 80px;
+    left: 100px;
+}
+.codigo {
+    color: rgb(164, 118, 90
+    );
+    font-size: larger;
+    
+
+}
+.envio {
+    font-size: x-large;
+}
+.camion {
+    height:100px ;
+    width: 200px;
+    
+}
+.cp {
+    border: 2px solid rgb(164, 118, 90
+    );
+    
+    
+}
+.boton {
+    color: rgb(164, 118, 90
+    );
+    border: 2px solid rgb(164, 118, 90
+    );
+    
+
+}
+.boton:focus {
+    font-weight: bold;
+}
+h3 {
+    color:  rgb(164, 118, 90
+    );
+    font-style: inherit;
+    font-size: 40px;
+  text-align: center;
+}
+.contactos {
+   margin-top: 50px;
+   color: rgb(164, 118, 90
+    );
+
+}
+.nombre {
+    border: 2px solid rgb(164, 118, 90
+    );
+    margin: 10px;
+}
+.mensaje {
+    position: relative;
+    bottom: 150px;
+}
+
+.enviar { 
+    color: rgb(164, 118, 90
+    );
+    border: 2px solid rgb(164, 118, 90
+    );
+    position: relative;
+   top: 20px;
+   left: 150px;
+}
+
+
+h2 {
+    color: rgb(164, 118, 90
+   );
+   font-style: inherit;
+   font-size: 40px;
+ text-align: center;
+ margin-top: 100px;
+}
+
+
+@media (max-width:480px) {
+    .tapiport{
+        width: 80px;
+        height: 80px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .menupc {
+        display: none;
+    }
+   .tapimenu {
+        height: 50px;
+        width:50px ;
+   }
+   h1 {
+       font-size: 35px;
+   }
+  .port1 {
+      width: 460px;
+      height: 280px;
+   }
+  .textointro {
+      font-size: 14px;  
+   }
+  .fotohome {
+      width:200px ;
+      height: 200px;
+   }
+  .fotosPrincipal {
+      display: grid;
+      grid-template-columns: repeat(2, 200px);
+      justify-content: center;
+      column-gap: 20px;
+      row-gap: 20px;
+   }
+  h2 {
+     color: rgb(164, 118, 90
+   );
+     font-style: inherit;
+     font-size: 20px;
+     text-align: center;
+     margin-top: 100px;
+   }
+  .fot6 {
+     width: 150px;
+     height: 150px;
+  }
+  .fot62 {
+     width: 200px;
+     height: 150px;
+  }
+  .fot8 {
+     width: 150px;
+     height: 150px;  
+  }
+  .dos {
+     display: grid;
+     grid-template-columns: repeat(2,150px);
+     justify-content: center;
+     column-gap: 60px;
+     row-gap: 50px;
+  }
+  .indi {
+     display: grid;
+     grid-template-columns: repeat(2,150px);
+     justify-content: center;
+     column-gap: 60px;
+     row-gap: 50px;
+  }
+  h3 {
+     color: rgb(164, 118, 90
+     );
+     font-style: inherit;
+     font-size: 20px;
+     text-align: center;
+  }
+  .codigo {
+     font-size: 16px; 
+  }
+  .muestrarios {
+     height:200px ;
+     width: 350px;
+  }
+  .container {
+     display: flex;
+     justify-content: center;
+     flex-direction: column; 
+  }
+  .tituloFoot {
+     margin: 20px;
+     font-size: 18px;
+     font-weight: bold;
+  }
+  .textoFoot {
+     font-size: 14px;
+  }
+}
+@media (min-width:480px) {
+    .menuhambur {
+     display: none
+    }
+}
