@@ -1,0 +1,45 @@
+.telas {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        color:$color;
+        font-style: inherit;
+      font-size: 50px;
+      text-align: center;
+      margin-top: 100px;
+      margin-bottom: 50px;
+    }
+    .camion {
+        height:100px ;
+        width: 200px;
+        
+    }
+    h2 {
+        color: $color;
+       font-style: inherit;
+       font-size: 40px;
+     text-align: center;
+     margin-top: 100px;
+    }
+    .codigo {
+        color:$color;
+        font-size: larger;
+    }
+    .cp {
+        border: 2px solid $color;
+        
+    }
+    .boton {
+        color: $color;
+        border: 2px solid $color;
+        &:focus {
+            font-weight: bold;
+        }
+        
+    }
+    }
+
+

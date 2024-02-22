@@ -1,0 +1,480 @@
+header {
+  background-color: rgb(247, 244, 240);
+  height: 120px;
+  position: sticky;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .tapiport {
+  width: 150px;
+  height: 100px;
+  margin-left: 50px;
+}
+header nav {
+  display: flex;
+  align-items: center;
+}
+header nav .menu {
+  list-style: none;
+  text-decoration: none;
+  color: #a4765a;
+  font-style: inherit;
+  font-size: larger;
+  display: flex;
+  flex-direction: row;
+}
+header nav .menu li {
+  margin-left: 200px;
+}
+header nav .menu li:hover {
+  font-weight: bold;
+}
+
+footer {
+  background-color: #f7f4f0;
+  height: 400px;
+  position: sticky;
+}
+footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .container .tapifoot {
+  width: 250px;
+  height: 200px;
+  margin-top: 100px;
+  margin-right: 100px;
+}
+footer .container section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .container p {
+  color: #a4765a;
+  font-style: normal;
+  font-size: 36px;
+  text-align: center;
+}
+footer .container .tituloFoot {
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: center;
+}
+footer .container .textoFoot {
+  font-size: 16px;
+  text-align: center;
+}
+
+h1 {
+  color: #a4765a;
+  font-style: inherit;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  color: #a4765a;
+  font-style: inherit;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.dos {
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  justify-content: center;
+  column-gap: 100px;
+  row-gap: 50px;
+}
+.dos .fot6 {
+  width: 400px;
+  height: 400px;
+}
+.dos .fot62 {
+  width: 450px;
+  height: 400px;
+}
+
+.indi {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  justify-content: center;
+  column-gap: 100px;
+  row-gap: 50px;
+}
+.indi .fot8 {
+  width: 300px;
+  height: 300px;
+}
+
+.telas {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.telas h1 {
+  color: #a4765a;
+  font-style: inherit;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.telas .camion {
+  height: 100px;
+  width: 200px;
+}
+.telas h2 {
+  color: #a4765a;
+  font-style: inherit;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 100px;
+}
+.telas h3 {
+  color: #a4765a;
+  font-style: inherit;
+  font-size: 40px;
+  text-align: center;
+}
+.telas .contactos {
+  color: #a4765a;
+  margin: 25px;
+}
+.telas .contactos .nombre {
+  color: #a4765a;
+  border: 2px solid #a4765a;
+  margin: 15px;
+}
+.telas .contactos .boton {
+  color: #a4765a;
+  border: 2px solid #a4765a;
+}
+.telas .contactos .boton:focus {
+  font-weight: bold;
+}
+
+.telas {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.telas h1 {
+  color: #a4765a;
+  font-style: inherit;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.telas .camion {
+  height: 100px;
+  width: 200px;
+}
+.telas h2 {
+  color: #a4765a;
+  font-style: inherit;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 100px;
+}
+.telas .codigo {
+  color: #a4765a;
+  font-size: larger;
+}
+.telas .cp {
+  border: 2px solid #a4765a;
+}
+.telas .boton {
+  color: #a4765a;
+  border: 2px solid #a4765a;
+}
+.telas .boton:focus {
+  font-weight: bold;
+}
+
+.port1 {
+  width: 1880px;
+  height: 900px;
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+p {
+  color: #a4765a;
+  font-style: normal;
+  font-size: 36px;
+  text-align: center;
+}
+
+.textointro {
+  margin: 50px 200px;
+}
+
+h1 {
+  color: #a4765a;
+  font-style: inherit;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.fotosPrincipal {
+  display: grid;
+  grid-template-columns: repeat(2, 600px);
+  justify-content: center;
+  column-gap: 50px;
+  row-gap: 50px;
+}
+.fotosPrincipal .fotohome {
+  width: 600px;
+  height: 600px;
+}
+
+h1 {
+  color: #a4765a;
+  font-style: inherit;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.telas {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.telas h2 {
+  color: #a4765a;
+  font-style: inherit;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 100px;
+}
+.telas .muestrarios {
+  height: 500px;
+  width: 750px;
+}
+
+@media (max-width: 480px) {
+  header {
+    background-color: rgb(247, 244, 240);
+    height: 80px;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header .tapiport {
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .menupc {
+    display: none;
+  }
+  .tapimenu {
+    height: 50px;
+    width: 50px;
+  }
+  .telas {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .telas h1 {
+    color: #a4765a;
+    font-style: inherit;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .port1 {
+    width: 460px;
+    height: 280px;
+  }
+  .textointro {
+    font-size: 16px;
+    margin: 25px 60px;
+  }
+  .fotosPrincipal {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+  .fotosPrincipal .fotohome {
+    width: 200px;
+    height: 200px;
+  }
+  .dos {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    align-items: center;
+    column-gap: 15px;
+    row-gap: 15px;
+  }
+  .dos .fot6 {
+    width: 150px;
+    height: 150px;
+  }
+  .dos .fot62 {
+    width: 150px;
+    height: 150px;
+  }
+  .indi {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    align-items: center;
+    column-gap: 15px;
+    row-gap: 15px;
+  }
+  .indi .fot8 {
+    width: 150px;
+    height: 150px;
+  }
+  h1 {
+    color: #a4765a;
+    font-style: inherit;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .telas {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .telas h2 {
+    color: #a4765a;
+    font-style: inherit;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .telas .muestrarios {
+    height: 200px;
+    width: 400px;
+  }
+  .telas {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .telas h1 {
+    color: #a4765a;
+    font-style: inherit;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .telas .camion {
+    height: 100px;
+    width: 200px;
+  }
+  .telas h2 {
+    color: #a4765a;
+    font-style: inherit;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .telas h3 {
+    color: #a4765a;
+    font-style: inherit;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0px;
+  }
+  .telas .contactos {
+    color: #a4765a;
+    margin: 25px;
+  }
+  .telas .contactos .nombre {
+    color: #a4765a;
+    border: 2px solid #a4765a;
+    margin: 15px;
+  }
+  .telas .contactos .boton {
+    color: #a4765a;
+    border: 2px solid #a4765a;
+  }
+  .telas .contactos .boton:focus {
+    font-weight: bold;
+  }
+  .codigo {
+    font-size: 16px;
+  }
+  footer {
+    background-color: #f7f4f0;
+    height: 300px;
+    position: sticky;
+  }
+  footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  footer .container .tapifoot {
+    width: 200px;
+    height: 150px;
+    margin: 50px;
+    margin-top: 80px;
+  }
+  footer .container section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .container p {
+    color: #a4765a;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+  }
+  footer .container .tituloFoot {
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  footer .container .textoFoot {
+    font-size: 14px;
+    text-align: center;
+  }
+}
+@media (min-width: 480px) {
+  .menuhambur {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
