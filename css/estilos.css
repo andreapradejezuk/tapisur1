@@ -476,5 +476,216 @@ h1 {
     display: none;
   }
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+  header {
+    background-color: rgb(247, 244, 240);
+    height: 100px;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header .tapiport {
+    width: 120px;
+    height: 90px;
+    margin-left: 50px;
+  }
+  header nav {
+    display: flex;
+    align-items: center;
+  }
+  header nav .menu {
+    list-style: none;
+    text-decoration: none;
+    color: #a4765a;
+    font-style: inherit;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+  header nav .menu li {
+    margin-left: 80px;
+  }
+  header nav .menu li:hover {
+    font-weight: bold;
+  }
+  .telas {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .telas h1 {
+    color: #a4765a;
+    font-style: inherit;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .port1 {
+    width: 1024px;
+    height: 480px;
+  }
+  .textointro {
+    font-size: 16px;
+    margin: 25px 60px;
+  }
+  .fotosPrincipal {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+  .fotosPrincipal .fotohome {
+    width: 280px;
+    height: 280px;
+  }
+  .dos {
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
+    align-items: center;
+    column-gap: 15px;
+    row-gap: 15px;
+  }
+  .dos .fot6 {
+    width: 280px;
+    height: 280px;
+  }
+  .dos .fot62 {
+    width: 280px;
+    height: 280px;
+  }
+  .indi {
+    display: grid;
+    grid-template-columns: repeat(4, 220.5px);
+    align-items: center;
+    column-gap: 15px;
+    row-gap: 15px;
+  }
+  .indi .fot8 {
+    width: 200px;
+    height: 200px;
+  }
+  h1 {
+    color: #a4765a;
+    font-style: inherit;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .telas {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .telas h2 {
+    color: #a4765a;
+    font-style: inherit;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .telas .muestrarios {
+    height: 400px;
+    width: 700px;
+  }
+  .telas {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .telas h1 {
+    color: #a4765a;
+    font-style: inherit;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .telas .camion {
+    height: 100px;
+    width: 200px;
+  }
+  .telas h2 {
+    color: #a4765a;
+    font-style: inherit;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .telas h3 {
+    color: #a4765a;
+    font-style: inherit;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0px;
+  }
+  .telas .contactos {
+    color: #a4765a;
+    margin: 25px;
+  }
+  .telas .contactos .nombre {
+    color: #a4765a;
+    border: 2px solid #a4765a;
+    margin: 15px;
+  }
+  .telas .contactos .boton {
+    color: #a4765a;
+    border: 2px solid #a4765a;
+  }
+  .telas .contactos .boton:focus {
+    font-weight: bold;
+  }
+  .codigo {
+    font-size: 16px;
+  }
+  footer {
+    background-color: #f7f4f0;
+    height: 300px;
+    width: 900px;
+    position: sticky;
+  }
+  footer .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  footer .container .tapifoot {
+    width: 150px;
+    height: 110px;
+    margin: 50px;
+    margin-top: 80px;
+  }
+  footer .container section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .container p {
+    color: #a4765a;
+    font-style: normal;
+    font-size: 16px;
+    text-align: center;
+  }
+  footer .container .tituloFoot {
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  footer .container .textoFoot {
+    font-size: 14px;
+    text-align: center;
+  }
+}
 
 /*# sourceMappingURL=estilos.css.map */
