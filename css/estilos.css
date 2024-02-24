@@ -1,5 +1,5 @@
 header {
-  background-color: rgb(247, 244, 240);
+  background-color: #ffffff;
   height: 120px;
   position: sticky;
   top: 0px;
@@ -33,14 +33,13 @@ header nav .menu li:hover {
 }
 
 footer {
-  background-color: #f7f4f0;
+  background-color: #ffffff;
   height: 400px;
   position: sticky;
 }
 footer .container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 footer .container .tapifoot {
   width: 250px;
@@ -48,23 +47,29 @@ footer .container .tapifoot {
   margin-top: 100px;
   margin-right: 100px;
 }
-footer .container section {
+footer .container .footali {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 100px;
+}
+footer .container .footali section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-right: 80px;
 }
-footer .container p {
+footer .container .footali p {
   color: #a4765a;
   font-style: normal;
   font-size: 36px;
   text-align: center;
 }
-footer .container .tituloFoot {
+footer .container .footali .tituloFoot {
   font-weight: bold;
   margin-bottom: 5px;
   text-align: center;
 }
-footer .container .textoFoot {
+footer .container .footali .textoFoot {
   font-size: 16px;
   text-align: center;
 }
@@ -272,7 +277,7 @@ h1 {
   width: 750px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px) and (max-width: 768px) {
   header {
     background-color: rgb(247, 244, 240);
     height: 80px;
@@ -450,23 +455,28 @@ h1 {
     margin: 50px;
     margin-top: 80px;
   }
-  footer .container section {
+  footer .container .footali {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 80px;
+  }
+  footer .container .footali section {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  footer .container p {
+  footer .container .footali p {
     color: #a4765a;
     font-style: normal;
     font-size: 16px;
     text-align: center;
   }
-  footer .container .tituloFoot {
+  footer .container .footali .tituloFoot {
     font-weight: bold;
     margin-bottom: 5px;
     text-align: center;
   }
-  footer .container .textoFoot {
+  footer .container .footali .textoFoot {
     font-size: 14px;
     text-align: center;
   }
@@ -666,23 +676,28 @@ h1 {
     margin: 50px;
     margin-top: 80px;
   }
-  footer .container section {
+  footer .container .footali {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 80px;
+  }
+  footer .container .footali section {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  footer .container p {
+  footer .container .footali p {
     color: #a4765a;
     font-style: normal;
     font-size: 16px;
     text-align: center;
   }
-  footer .container .tituloFoot {
+  footer .container .footali .tituloFoot {
     font-weight: bold;
     margin-bottom: 5px;
     text-align: center;
   }
-  footer .container .textoFoot {
+  footer .container .footali .textoFoot {
     font-size: 14px;
     text-align: center;
   }
