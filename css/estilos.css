@@ -151,26 +151,23 @@ h2 {
   font-size: 40px;
   text-align: center;
 }
-.telas .formulario {
-  width: 100%;
-}
-.telas .formulario .contactos {
+.telas .contactos {
   color: #a4765a;
   margin: 25px;
 }
-.telas .formulario .contactos textarea {
-  width: 60%;
+.telas .contactos textarea {
+  width: 100%;
 }
-.telas .formulario .contactos .nombre {
+.telas .contactos .nombre {
   color: #a4765a;
   border: 2px solid #a4765a;
   margin: 15px;
 }
-.telas .formulario .contactos .boton {
+.telas .contactos .boton {
   color: #a4765a;
   border: 2px solid #a4765a;
 }
-.telas .formulario .contactos .boton:focus {
+.telas .contactos .boton:focus {
   font-weight: bold;
 }
 
@@ -216,7 +213,7 @@ h2 {
 }
 
 .port1 {
-  width: 1880px;
+  width: 100%;
   height: 900px;
   background-position: top;
   background-size: contain;
@@ -425,26 +422,23 @@ h1 {
     text-align: center;
     margin-top: 0px;
   }
-  .telas .formulario {
-    width: 100%;
-  }
-  .telas .formulario .contactos {
+  .telas .contactos {
     color: #a4765a;
     margin: 25px;
   }
-  .telas .formulario .contactos textarea {
+  .telas .contactos textarea {
     width: 60%;
   }
-  .telas .formulario .contactos .nombre {
+  .telas .contactos .nombre {
     color: #a4765a;
     border: 2px solid #a4765a;
     margin: 15px;
   }
-  .telas .formulario .contactos .boton {
+  .telas .contactos .boton {
     color: #a4765a;
     border: 2px solid #a4765a;
   }
-  .telas .formulario .contactos .boton:focus {
+  .telas .contactos .boton:focus {
     font-weight: bold;
   }
   .codigo {
@@ -493,7 +487,7 @@ h1 {
     text-align: center;
   }
 }
-@media (max-width: 480px) and (max-width: 768px) {
+@media (min-width: 768px) {
   .menuhambur {
     display: none;
   }

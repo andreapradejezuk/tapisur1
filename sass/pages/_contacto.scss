@@ -31,20 +31,19 @@
       text-align: center;
     }
 
-    .formulario {
-        width: 100%;
-        .contactos {
+    
+     .contactos {
             color: $color;
              margin: 25px;
              textarea {
-                width: 60%;
+                width: 100%;
              }
-             .nombre {
+     .nombre {
                 color: $color;
                 border: 2px solid $color;
                 margin: 15px;
             }
-            .boton {
+     .boton {
                 color: $color;
                 border: 2px solid $color;
                 &:focus {
@@ -57,7 +56,7 @@
     }
   
       
-    }
+    
 
 
 
