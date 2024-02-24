@@ -59,7 +59,7 @@
 
 .fotosPrincipal {
       display: grid;
-      grid-template-columns: repeat(2, 200px);
+      grid-template-columns: repeat(2, 50%);
       justify-content: center;
       column-gap: 20px;
       row-gap: 20px;
@@ -208,9 +208,10 @@ h1 {
         }
         .footali {
             display: flex;
+            align-items: flex-start;
             margin-top: 50px;
             flex-direction: column;
-            align-items: flex-start;
+            
             section {
                 display: flex;
                 flex-direction: column; 
@@ -250,7 +251,7 @@ h1 {
     }
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
     header {
         background-color: #ffffff;
         height:100px;
@@ -316,7 +317,7 @@ h1 {
 
 .fotosPrincipal {
       display: grid;
-      grid-template-columns: repeat(3, 300px);
+      grid-template-columns: repeat(3, 33%);
       justify-content: center;
       column-gap: 20px;
       row-gap: 20px;
