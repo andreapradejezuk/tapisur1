@@ -131,7 +131,7 @@ h1 {
     h1 {
         color:$color;
         font-style: inherit;
-      font-size: 35px;
+      font-size: 20px;
       text-align: center;
       margin-top: 50px;
       margin-bottom: 50px;
@@ -160,6 +160,9 @@ h1 {
         .contactos {
             color: $color;
              margin: 25px;
+             textarea {
+                width: 60%
+             }
              .nombre {
                 color: $color;
                 border: 2px solid $color;
@@ -203,7 +206,6 @@ h1 {
         }
         .footali {
             display: flex;
-            align-items: flex-start;
             margin-top: 80px;
             flex-direction: column;
             section {
@@ -239,7 +241,7 @@ h1 {
  }   
 }
 
-@media (min-width:480px) {
+@media (max-width:480px) and (max-width: 768px) {
     .menuhambur {
      display: none
     }
@@ -415,6 +417,9 @@ h1 {
         .contactos {
             color: $color;
              margin: 25px;
+             textarea {
+                width: 60%
+             }
              .nombre {
                 color: $color;
                 border: 2px solid $color;
