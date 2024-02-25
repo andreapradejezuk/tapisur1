@@ -1,6 +1,7 @@
 header {
     background-color: #ffffff;
     height:120px;
+    width: 100%;
     position: sticky;
     top: 0px;
     display: flex;
@@ -10,12 +11,15 @@ header {
     .tapiport {
         width: 150px; ;
         height: 100px; 
-        margin-left: 50px;
+        margin-left:30%;
+       
+       
     }
 
     nav { 
         display: flex;
         align-items: center;
+        width: 100%;
         .menu {
             list-style: none;
             text-decoration: none;
@@ -27,7 +31,8 @@ header {
             
            
             li {
-                margin-left: 200px;
+                margin-left: 50%;
+
                 &:hover {
                     font-weight: bold;
                 }
@@ -40,7 +45,8 @@ header {
 
 footer {
     background-color: #ffffff;
-    height: 400px;
+    height: 100%;
+    width: 100%;
     position: sticky;
     .container {
         display: flex;

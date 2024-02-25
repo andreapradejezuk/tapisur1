@@ -1,6 +1,7 @@
 header {
   background-color: #ffffff;
   height: 120px;
+  width: 100%;
   position: sticky;
   top: 0px;
   display: flex;
@@ -10,11 +11,12 @@ header {
 header .tapiport {
   width: 150px;
   height: 100px;
-  margin-left: 50px;
+  margin-left: 30%;
 }
 header nav {
   display: flex;
   align-items: center;
+  width: 100%;
 }
 header nav .menu {
   list-style: none;
@@ -26,7 +28,7 @@ header nav .menu {
   flex-direction: row;
 }
 header nav .menu li {
-  margin-left: 200px;
+  margin-left: 50%;
 }
 header nav .menu li:hover {
   font-weight: bold;
@@ -34,7 +36,8 @@ header nav .menu li:hover {
 
 footer {
   background-color: #ffffff;
-  height: 400px;
+  height: 100%;
+  width: 100%;
   position: sticky;
 }
 footer .container {
@@ -93,30 +96,32 @@ h2 {
 
 .dos {
   display: grid;
-  grid-template-columns: repeat(3, 400px);
+  grid-template-columns: repeat(3, 25%);
+  grid-template-rows: repeat(2, 50%);
   justify-content: center;
-  column-gap: 100px;
-  row-gap: 50px;
+  column-gap: 2%;
+  row-gap: 2%;
 }
 .dos .fot6 {
-  width: 400px;
-  height: 400px;
+  width: 80%;
+  height: 80%;
 }
 .dos .fot62 {
-  width: 450px;
-  height: 400px;
+  width: 80%;
+  height: 80%;
 }
 
 .indi {
   display: grid;
-  grid-template-columns: repeat(4, 300px);
+  grid-template-columns: repeat(4, 19%);
+  grid-template-rows: repeat(2, 50%);
   justify-content: center;
-  column-gap: 100px;
-  row-gap: 50px;
+  column-gap: 2%;
+  row-gap: 2%;
 }
 .indi .fot8 {
-  width: 300px;
-  height: 300px;
+  width: 80%;
+  height: 80%;
 }
 
 .telas {
@@ -248,9 +253,9 @@ h1 {
   row-gap: 20px;
 }
 .fotosPrincipal .fotohome {
-  width: 500px;
-  height: 500px;
-  margin: 10px;
+  width: 80%;
+  height: 80%;
+  margin: 10%;
   justify-self: center;
 }
 
@@ -278,8 +283,8 @@ h1 {
   margin-top: 100px;
 }
 .telas .muestrarios {
-  height: 500px;
-  width: 750px;
+  height: 40%;
+  width: 60%;
 }
 
 @media (min-width: 300px) and (max-width: 768px) {
@@ -469,7 +474,7 @@ h1 {
     margin-top: 30px;
     flex-direction: column;
     align-items: center;
-    margin-left: 60px;
+    margin-left: 70px;
   }
   footer .container .footali section {
     display: flex;
@@ -517,7 +522,7 @@ h1 {
     display: flex;
     align-items: center;
   }
-  header nav .menu {
+  header nav .menupc .menu {
     list-style: none;
     text-decoration: none;
     color: #a4765a;
@@ -526,20 +531,23 @@ h1 {
     display: flex;
     flex-direction: row;
   }
-  header nav .menu li {
+  header nav .menupc .menu li {
     margin-left: 50px;
   }
-  header nav .menu li:hover {
+  header nav .menupc .menu li:hover {
     font-weight: bold;
   }
-  .telas {
+  header nav .menuhambur {
+    display: none;
+  }
+  header .telas {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
-  .telas h1 {
+  header .telas h1 {
     color: #a4765a;
     font-style: inherit;
     font-size: 35px;
@@ -547,53 +555,53 @@ h1 {
     margin-top: 50px;
     margin-bottom: 50px;
   }
-  .port1 {
+  header .port1 {
     width: 100%;
     height: 480px;
   }
-  .textointro {
+  header .textointro {
     font-size: 16px;
     margin: 25px 60px;
   }
-  .fotosPrincipal {
+  header .fotosPrincipal {
     display: grid;
     grid-template-columns: repeat(3, 33%);
     justify-content: center;
     column-gap: 10px;
     row-gap: 10px;
   }
-  .fotosPrincipal .fotohome {
+  header .fotosPrincipal .fotohome {
     width: 230px;
     height: 230px;
     margin: 5px;
   }
-  .dos {
+  header .dos {
     display: grid;
     grid-template-columns: repeat(3, 220px);
     align-items: center;
     column-gap: 15px;
     row-gap: 15px;
   }
-  .dos .fot6 {
+  header .dos .fot6 {
     width: 230px;
     height: 230px;
   }
-  .dos .fot62 {
+  header .dos .fot62 {
     width: 230px;
     height: 230px;
   }
-  .indi {
+  header .indi {
     display: grid;
     grid-template-columns: repeat(3, 220px);
     align-items: center;
     column-gap: 15px;
     row-gap: 15px;
   }
-  .indi .fot8 {
+  header .indi .fot8 {
     width: 230px;
     height: 230px;
   }
-  h1 {
+  header h1 {
     color: #a4765a;
     font-style: inherit;
     font-size: 35px;
@@ -601,32 +609,32 @@ h1 {
     margin-top: 50px;
     margin-bottom: 50px;
   }
-  .telas {
+  header .telas {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
-  .telas h2 {
+  header .telas h2 {
     color: #a4765a;
     font-style: inherit;
     font-size: 30px;
     text-align: center;
     margin-top: 50px;
   }
-  .telas .muestrarios {
+  header .telas .muestrarios {
     height: 400px;
     width: 700px;
   }
-  .telas {
+  header .telas {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }
-  .telas h1 {
+  header .telas h1 {
     color: #a4765a;
     font-style: inherit;
     font-size: 25px;
@@ -634,44 +642,44 @@ h1 {
     margin-top: 50px;
     margin-bottom: 50px;
   }
-  .telas .camion {
+  header .telas .camion {
     height: 80px;
     width: 200px;
   }
-  .telas h2 {
+  header .telas h2 {
     color: #a4765a;
     font-style: inherit;
     font-size: 30px;
     text-align: center;
     margin-top: 50px;
   }
-  .telas h3 {
+  header .telas h3 {
     color: #a4765a;
     font-style: inherit;
     font-size: 20px;
     text-align: center;
     margin-top: 0px;
   }
-  .telas .formulario {
+  header .formulario {
     width: 100%;
   }
-  .telas .formulario .contactos {
+  header .formulario .contactos {
     color: #a4765a;
     margin: 25px;
   }
-  .telas .formulario .contactos textarea {
+  header .formulario .contactos textarea {
     width: 60%;
   }
-  .telas .formulario .contactos .nombre {
+  header .formulario .contactos .nombre {
     color: #a4765a;
     border: 2px solid #a4765a;
     margin: 15px;
   }
-  .telas .formulario .contactos .boton {
+  header .formulario .contactos .boton {
     color: #a4765a;
     border: 2px solid #a4765a;
   }
-  .telas .formulario .contactos .boton:focus {
+  header .formulario .contactos .boton:focus {
     font-weight: bold;
   }
   .codigo {
