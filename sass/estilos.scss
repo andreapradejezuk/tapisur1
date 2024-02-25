@@ -15,6 +15,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        
         .menuhambur {
             .tapiport{
                 width: 60px;
@@ -22,17 +23,20 @@
                 margin-top: 20px;
                 margin-left: 20px;
             }
+            .tapimenu {
+                height: 50px;
+                width:50px ;
+           }
+        
         }
+        .menupc {
+            display: none;
+        }
+           
         }
     
         
-.menupc {
-        display: none;
-    }
-.tapimenu {
-        height: 50px;
-        width:50px ;
-   }
+
 .telas {
     display: flex;
     flex-direction: column;
@@ -251,9 +255,13 @@ h1 {
  }   
 }
 
+@media (min-width:768px){
+    .menuhambur {
+        display: none;
+    }
+}
 
-
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1399px) {
     header {
         background-color: #ffffff;
         height:100px;
@@ -285,7 +293,8 @@ h1 {
                     
                    
                     li {
-                        margin-left: 50px;
+                        margin-left: 30%;
+                        margin-right: 5%;
                         &:hover {
                             font-weight: bold;
                         }

@@ -28,13 +28,11 @@ header nav .menupc .menu {
   flex-direction: row;
 }
 header nav .menupc .menu li {
-  margin-left: 50%;
+  margin-left: 30%;
+  margin-right: 5%;
 }
 header nav .menupc .menu li:hover {
   font-weight: bold;
-}
-header .menuhambur {
-  display: none;
 }
 
 footer {
@@ -305,12 +303,12 @@ h1 {
     margin-top: 20px;
     margin-left: 20px;
   }
-  .menupc {
-    display: none;
-  }
-  .tapimenu {
+  header .menuhambur .tapimenu {
     height: 50px;
     width: 50px;
+  }
+  header .menupc {
+    display: none;
   }
   .telas {
     display: flex;
@@ -501,7 +499,12 @@ h1 {
     text-align: center;
   }
 }
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 768px) {
+  .menuhambur {
+    display: none;
+  }
+}
+@media (min-width: 769px) and (max-width: 1399px) {
   header {
     background-color: #ffffff;
     height: 100px;
@@ -531,7 +534,8 @@ h1 {
     flex-direction: row;
   }
   header nav .menupc .menu li {
-    margin-left: 50px;
+    margin-left: 30%;
+    margin-right: 5%;
   }
   header nav .menupc .menu li:hover {
     font-weight: bold;
