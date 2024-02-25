@@ -1,40 +1,42 @@
-.port1 {
-    width: 100%;
-    height:900px ;
-   background-position: top;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-p {
-    color:$color;
-    font-style: normal;
-    font-size: 36px;
-    text-align: center;
-    
- }
- .textointro {
-    margin: 50px 200px;
-}
- h1 {
-    color:$color;
-    font-style: inherit;
-  font-size: 50px;
-  text-align: center;
-  margin-top: 100px;
-  margin-bottom: 50px;
-}
 
-.fotosPrincipal {
-    display: grid;
-    grid-template-columns: repeat(3, 33%);
-   align-content: center;
-   column-gap: 20px;
-   row-gap: 20px;
-   .fotohome {
-    width:80%;
-    height: 80%;
-    margin: 10%;
-    justify-self: center;
-}
-}
+    .port1 {
+        width: 100%;
+        height:30% ;
+       background-position: top;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    p {
+        color:$color;
+        font-style: normal;
+        font-size: 200%;
+        text-align: center;
+        
+     }
+     .textointro {
+        margin: 2% 10%;
+    }
+     h1 {
+        color:$color;
+        font-style: inherit;
+      font-size: 80%;
+      text-align: center;
+      margin-top: 100px;
+      margin-bottom: 50px;
+    }
+    
+    .fotosPrincipal {
+        display: grid;
+        grid-template-columns: repeat(3, 30%);
+       align-content: center;
+       column-gap: 2%;
+       row-gap: 2%;
+       .fotohome {
+        width:80%;
+        height: 80%;
+        justify-self: center;
+    }
+    }
+
+
 
