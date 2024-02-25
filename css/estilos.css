@@ -501,11 +501,6 @@ h1 {
     text-align: center;
   }
 }
-@media (min-width: 768px) {
-  .menuhambur {
-    display: none;
-  }
-}
 @media (min-width: 769px) and (max-width: 1024px) {
   header {
     background-color: #ffffff;
