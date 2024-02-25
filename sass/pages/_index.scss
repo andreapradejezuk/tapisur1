@@ -26,13 +26,15 @@ p {
 
 .fotosPrincipal {
     display: grid;
-    grid-template-columns: repeat(2, 700px);
-   justify-content: center;
-   column-gap: 50px;
-   row-gap: 50px;
+    grid-template-columns: repeat(3, 33%);
+   align-content: center;
+   column-gap: 20px;
+   row-gap: 20px;
    .fotohome {
     width: 500px;
     height: 500px;
+    margin: 10px;
+    justify-self: center;
 }
 }
 
