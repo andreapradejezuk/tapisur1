@@ -21,24 +21,30 @@
             display: flex;
             align-items: center;
             width: 100%;
-            .menu {
-                list-style: none;
-                text-decoration: none;
-                color:$color;
-                font-style: inherit;
-                font-size: larger;
-                display: flex;
-                flex-direction: row;
-                
-               
-                li {
-                    margin-left: 50%;
-    
-                    &:hover {
-                        font-weight: bold;
+            .menupc {
+                .menu {
+                    list-style: none;
+                    text-decoration: none;
+                    color:$color;
+                    font-style: inherit;
+                    font-size: larger;
+                    display: flex;
+                    flex-direction: row;
+                    
+                   
+                    li {
+                        margin-left: 50%;
+        
+                        &:hover {
+                            font-weight: bold;
+                        }
                     }
                 }
             }
+            
+        }
+        .menuhambur{
+            display: none;
         }
        
     }

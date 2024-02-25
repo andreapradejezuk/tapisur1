@@ -18,7 +18,7 @@ header nav {
   align-items: center;
   width: 100%;
 }
-header nav .menu {
+header nav .menupc .menu {
   list-style: none;
   text-decoration: none;
   color: #a4765a;
@@ -27,11 +27,14 @@ header nav .menu {
   display: flex;
   flex-direction: row;
 }
-header nav .menu li {
+header nav .menupc .menu li {
   margin-left: 50%;
 }
-header nav .menu li:hover {
+header nav .menupc .menu li:hover {
   font-weight: bold;
+}
+header .menuhambur {
+  display: none;
 }
 
 footer {
